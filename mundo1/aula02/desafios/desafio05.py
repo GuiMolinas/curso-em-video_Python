@@ -1,0 +1,12 @@
+p = input('Digite algo: ')
+print('... RESULTADOS ...')
+print('O que foi digitado: {}'.format(p))
+print('Tipo primitivo: {}'.format(type(p)))
+print('Tem somente espaços? - {}'.format(p.isspace()))
+print('É numérico? - {}'.format(p.isnumeric()))
+print('É alfabético? - {}'.format(p.isalpha()))
+print('É alfanumérico? - {}'.format(p.isalnum()))
+print('Está em maiúscula? - {}'.format(p.isupper()))
+print('Está em minúscula? - {}'.format(p.islower()))
+print('Está capitalizada? - {}'.format(p.istitle()))
+
